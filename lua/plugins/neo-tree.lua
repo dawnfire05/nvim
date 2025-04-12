@@ -13,5 +13,6 @@ return
   ---@type neotree.Config?
   opts = {
     -- fill any relevant options here
+    close_if_last_window = true,
   },
 }
