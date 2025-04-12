@@ -12,3 +12,5 @@ mapKey('<C-l>', '<C-w>l') -- Right
 -- clear search hl
 mapKey('<leader>h', ':nohlsearch<CR>')
 
+mapKey('<', '<gv', 'v')
+mapKey('>', '>gv', 'v')
